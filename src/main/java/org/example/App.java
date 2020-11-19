@@ -22,7 +22,7 @@ public class App
 
         executeInParallel(tasks);
         executeInParallel(tasks2);
-        System.out.println( "Completed tasks successfully" );
+        System.out.println( "Completed tasks successfully!" );
     }
 
     public static void executeInParallel(List<String> tasks) {
